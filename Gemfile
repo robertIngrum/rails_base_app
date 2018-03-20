@@ -5,7 +5,6 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
-
 gem 'rails',                          '~> 5.1.5' # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'sqlite3'                                    # Use sqlite3 as the database for Active Record
 gem 'puma',                           '~> 3.7'   # Use Puma as the app server
@@ -17,9 +16,6 @@ gem 'turbolinks',                     '~> 5'     # Turbolinks makes navigating y
 gem 'jbuilder',                       '~> 2.5'   # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'redis',                          '~> 4.0'
 gem 'bcrypt',                         '~> 3.1.7' # Use ActiveModel has_secure_password
-
-# Use Capistrano for deployment
-# gem 'capistrano-rails', group: :development
 
 group :development, :test do
   gem 'awesome_print'                                   # Get proper indention and syntax highlighting
@@ -36,6 +32,7 @@ group :development do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
+  gem 'pry'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem

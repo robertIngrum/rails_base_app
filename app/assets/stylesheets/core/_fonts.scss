@@ -1,0 +1,54 @@
+@font-face {
+  font-family: 'Metropolis';
+  font-style: normal;
+  font-weight: 400;
+  src: font-url("Metropolis/Metropolis-Regular.eot");
+  src: font-url("Metropolis/Metropolis-Regular.eot") format('embedded-opentype'),
+       font-url("Metropolis/Metropolis-Regular.woff2") format('woff2'),
+       font-url("Metropolis/Metropolis-Regular.woff") format('woff'),
+}
+@font-face {
+  font-family: 'Metropolis';
+  font-style: normal;
+  font-weight: 600;
+  src: font-url("Metropolis/Metropolis-SemiBold.eot");
+  src: font-url("Metropolis/Metropolis-SemiBold.eot") format('embedded-opentype'),
+       font-url("Metropolis/Metropolis-SemiBold.woff2") format('woff2'),
+       font-url("Metropolis/Metropolis-SemiBold.woff") format('woff'),
+}
+@font-face {
+  font-family: 'Metropolis';
+  font-style: normal;
+  font-weight: 700;
+  src: font-url("Metropolis/Metropolis-Bold.eot");
+  src: font-url("Metropolis/Metropolis-Bold.eot") format('embedded-opentype'),
+       font-url("Metropolis/Metropolis-Bold.woff2") format('woff2'),
+       font-url("Metropolis/Metropolis-Bold.woff") format('woff'),
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: font-url("OpenSans/Regular/OpenSans-Regular.eot?v=1.1.0");
+  src: font-url("OpenSans/Regular/OpenSans-Regular.eot#iefix&v=1.1.0") format('embedded-opentype'),
+       font-url("OpenSans/Regular/OpenSans-Regular.woff2?v=1.1.0") format('woff2'),
+       font-url("OpenSans/Regular/OpenSans-Regular.woff?v=1.1.0") format('woff'),
+       font-url("OpenSans/Regular/OpenSans-Regular.ttf?v=1.1.0") format('truetype'),
+       font-url("OpenSans/Regular/OpenSans-Regular.svg?v=1.1.0#Regular") format('svg');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: font-url("OpenSans/Bold/OpenSans-Bold.eot?v=1.1.0");
+  src: font-url("OpenSans/Bold/OpenSans-Bold.eot#iefix&v=1.1.0") format('embedded-opentype'),
+       font-url("OpenSans/Bold/OpenSans-Bold.woff2?v=1.1.0") format('woff2'),
+       font-url("OpenSans/Bold/OpenSans-Bold.woff?v=1.1.0") format('woff'),
+       font-url("OpenSans/Bold/OpenSans-Bold.ttf?v=1.1.0") format('truetype'),
+       font-url("OpenSans/Bold/OpenSans-Bold.svg?v=1.1.0#Bold") format('svg');
+}
+
+$open-sans:  "Open Sans",  "Arial", "Helvetica Neue", Helvetica, sans-serif;
+$metropolis: "Metropolis", "Arial", "Helvetica Neue", Helvetica, sans-serif;

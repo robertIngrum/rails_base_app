@@ -1,14 +1,29 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>RailsBaseApp</title>
+    <title><%= app_name %></title>
+
     <%= csrf_meta_tags %>
 
-    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= stylesheet_link_tag    'application', 'data-turbolinks-track': 'reload', media: 'all' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
   <body>
-    <%= yield %>
+    <header>
+      <%= link_to root_path do %>
+        <h1><%= app_name %></h1>
+      <% end %>
+    </header>
+
+    <content>
+      <%= yield %>
+    </content>
+
+    <footer>
+      <p>
+        Put copyright information and important links here.
+      </p>
+    </footer>
   </body>
 </html>
